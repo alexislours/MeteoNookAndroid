@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><script>window.fetch = (url, info) => {
+      return new Promise(function(resolve, reject) {
+        let xhr = new XMLHttpRequest();
+        xhr.open((info && info.method) || "GET", url);
+        if (url.endsWith(".wasm")) xhr.responseType = "arraybuffer";
+
+        xhr.onload = function() {
+          if (this.status >= 200 && this.status < 300) {
+            resolve({
+              json: () => JSON.parse(xhr.response),
+              ok: true,
+              arrayBuffer: () => xhr.response
+            });
+          } else {
+            reject({
+              status: this.status,
+              statusText: xhr.statusText
+            });
+          }
+        };
+        xhr.onerror = function() {
+          reject({
+            status: this.status,
+            statusText: xhr.statusText
+          });
+        };
+        xhr.send();
+      });
+    };
+    WebAssembly.instantiateStreaming = undefined;</script><title>MeteoNook Alpha</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"></head><body><div id="loadingPlaceholder"><h4>Loading app...</h4><p>If nothing happens after a few seconds, your browser may not be supported.</p><p>MeteoNook works with up-to-date versions of Firefox, Safari, Chrome and other Chrome-based browsers - support for WebAssembly is required. Internet Explorer is not supported.</p></div><script src="index.js?5f7cfefd230247e1cbbd"></script></body></html>

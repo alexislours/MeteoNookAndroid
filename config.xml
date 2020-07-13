@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="dev.lours.meteonook" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MeteoNook</name>
+    <description>
+        MeteoNook Cordova app.
+    </description>
+    <author email="alexislours@protonmail.com" href="http://github.com/alexislours">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+		<icon density="mdpi" src="res/mipmap-hdpi/ic_launcher.png" />
+		<icon density="hdpi" src="res/mipmap-mdpi/ic_launcher.png" />
+		<icon density="xhdpi" src="res/mipmap-xhdpi/ic_launcher.png" />
+		<icon density="xxhdpi" src="res/mipmap-xxhdpi/ic_launcher.png" />
+		<icon density="xxxhdpi" src="res/mipmap-xxxhdpi/ic_launcher.png" />
+    </platform>
+</widget>
