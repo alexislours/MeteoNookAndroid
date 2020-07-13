@@ -8,17 +8,13 @@
     <description>
         MeteoNook Cordova app.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    <author email="alexislours@protonmail.com" href="http://github.com/alexislours">
         Apache Cordova Team
     </author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <icon density="mdpi" src="res/mipmap-hdpi/ic_launcher.png" />
     <icon density="hdpi" src="res/mipmap-mdpi/ic_launcher.png" />
