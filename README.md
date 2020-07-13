@@ -8,4 +8,5 @@ APKs can be found in the [release](https://github.com/alexislours/MeteoNookAndro
 
 # Build
 `npm install`
+
 `cordova build android`
