@@ -6,6 +6,8 @@ This allows for offline use of the project and doesn't require an online connect
 
 APKs can be found in the [release](https://github.com/alexislours/MeteoNookAndroid/releases) tab.
 
+Icons made by juniper#4215
+
 # Build
 `npm install`
 
