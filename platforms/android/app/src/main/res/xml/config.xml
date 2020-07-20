@@ -9,7 +9,7 @@
         MeteoNook Cordova app.
     </description>
     <author email="alexislours@protonmail.com" href="http://github.com/alexislours">
-        Apache Cordova Team
+        Alexis LOURS
     </author>
     <content src="index.html" />
     <access origin="*" />

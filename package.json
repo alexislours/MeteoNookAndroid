@@ -1,8 +1,8 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloCordova",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "name": "meteonook",
+  "displayName": "MeteoNook",
+  "version": "1.0.6",
+  "description": "MeteoNook Cordova app.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0",
+  "author": "Alexis LOURS",
+  "license": "AGPL-3.0-only",
   "dependencies": {
     "cordova-android": "^8.1.0"
   },
